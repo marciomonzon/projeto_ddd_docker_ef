@@ -170,6 +170,19 @@
         "runtime": {
           "bin/placeholder/RestApiModeloDDD.Domain.dll": {}
         }
+      },
+      "RestApiModeloDDD.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "RestApiModeloDDD.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestApiModeloDDD.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiModeloDDD.Domain.Core.dll": {}
+        }
       }
     }
   },
@@ -534,12 +547,18 @@
       "type": "project",
       "path": "../RestApiModeloDDD.Domain/RestApiModeloDDD.Domain.csproj",
       "msbuildProject": "../RestApiModeloDDD.Domain/RestApiModeloDDD.Domain.csproj"
+    },
+    "RestApiModeloDDD.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../RestApiModeloDDD.Domain.Core/RestApiModeloDDD.Domain.Core.csproj",
+      "msbuildProject": "../RestApiModeloDDD.Domain.Core/RestApiModeloDDD.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.7",
-      "RestApiModeloDDD.Domain >= 1.0.0"
+      "RestApiModeloDDD.Domain >= 1.0.0",
+      "RestApiModeloDDD.Domain.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -569,6 +588,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\projetos\\projeto_ddd_docker_ef\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+              "projectPath": "D:\\projetos\\projeto_ddd_docker_ef\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+            },
             "D:\\projetos\\projeto_ddd_docker_ef\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
               "projectPath": "D:\\projetos\\projeto_ddd_docker_ef\\RestApiModeloDDD\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj"
             }

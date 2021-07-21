@@ -3,7 +3,7 @@ using RestApiModeloDDD.Domain.Entities;
 using System;
 using System.Linq;
 
-namespace RestApiModeloDDD.Infrastructure._4._1.Data
+namespace RestApiModeloDDD.Infrastructure.Data
 {
     public class SqlContext : DbContext
     {
