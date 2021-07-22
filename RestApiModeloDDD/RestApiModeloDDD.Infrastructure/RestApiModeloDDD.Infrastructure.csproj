@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\" />
+    <Folder Include="CrossCutting\Interfaces\" />
+    <Folder Include="CrossCutting\Map\" />
+    <Folder Include="CrossCutting\IOC\" />
   </ItemGroup>
 
   <ItemGroup>
