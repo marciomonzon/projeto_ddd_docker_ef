@@ -1,11 +1,10 @@
 ﻿using RestApiModeloDDD.Application.Dtos;
+using RestApiModeloDDD.Application.Interfaces.Mapper;
 using RestApiModeloDDD.Domain.Entities;
-using RestApiModeloDDD.Infrastructure.CrossCutting.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RestApiModeloDDD.Infrastructure.CrossCutting.Mapper
+namespace RestApiModeloDDD.Application.Mapper
 {
     public class MapperCliente : IMapperCliente
     {

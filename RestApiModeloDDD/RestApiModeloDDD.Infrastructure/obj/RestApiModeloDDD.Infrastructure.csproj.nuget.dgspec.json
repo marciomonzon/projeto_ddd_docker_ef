@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\projetos\\projeto_ddd_docker_ef\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+                "projectPath": "D:\\projetos\\projeto_ddd_docker_ef\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
