@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FdYm82x9T9/2aQGQ2swwe3Z0wfOUkQDYyPfY5ach+YEKhW32Dnx5pY+9Mq/FEcJb5QNdLW5wp5OejD+R/ispgw==",
+  "dgSpecHash": "M4a2KhliN6EKuXsgljQVtWsyCRADb4hJ90lgeD25N+5fFu07eSv9uctZZ9CnC69SxvB9PyLMWnMqLhLwEpQmww==",
   "success": true,
   "projectFilePath": "D:\\projetos\\projeto_ddd_docker_ef\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marci\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.7\\microsoft.entityframeworkcore.analyzers.5.0.7.nupkg.sha512",
